@@ -445,9 +445,9 @@ h6 {
 	margin: 0;
 	font-family: inherit;
 	font-weight: bold;
-	color: #66F;
+	color: white;
 	text-rendering: optimizelegibility;
-	background-color: #CCC;
+	background-color: grey;
 }
 
 h1 small,
@@ -524,6 +524,7 @@ h6 {
 
 .page-header h1 {
   line-height: 1;
+  background: maroon;
 }
 
 ul,
@@ -589,12 +590,9 @@ dd {
   margin-left: 130px;
 }
 
-hr {
-  margin: 18px 0;
-  border: 0;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #ffffff;
-}
+hr { 
+        border-top: 2px solid #ccc;
+        }
 
 strong {
   font-weight: bold;
@@ -1529,6 +1527,9 @@ table {
   margin-bottom: 18px;
 }
 
+thead >tr{
+background: grey;
+}
 .table th,
 .table td {
   padding: 8px;
